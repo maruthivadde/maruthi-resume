@@ -1,0 +1,45 @@
+.education {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(193, 224, 214);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 40px;
+    padding-left: 20px;
+  }
+  @media screen and (min-width: 1200px) {
+    .education {
+      padding-left: 400px;
+    }
+  }
+  .ed-heading {
+    color: black;
+    font-size: 23px;
+    font-weight: 700;
+    font-family: 'Bree Serif';
+    padding-left: 14px;
+  }
+  .ed-par {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Roboto';
+    padding-left: 14px;
+  }
+  .button {
+    height: 45px;
+    width: 120px;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(79, 79, 220);
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'Roboto';
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 120px;
+  }
+  

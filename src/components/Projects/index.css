@@ -1,0 +1,54 @@
+.project-container {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(193, 224, 214);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 30px;
+    align-items: flex-start;
+    padding-left: 20px;
+  }
+  @media screen and (min-width: 1200px) {
+    .project-container {
+      padding-left: 500px;
+    }
+  }
+  
+  .list-name-m {
+    color: rgb(27, 97, 228);
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Playfair Display SC';
+    text-decoration: none;
+  }
+  .hi {
+    padding-left: 20px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+  }
+  .not {
+    color: red;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Roboto';
+    text-decoration: underline;
+  }
+  .user {
+    color: rgb(24, 23, 23);
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Roboto';
+  }
+  .nam {
+    color: rgb(73, 14, 209);
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Roboto';
+  }
+  @media screen and (min-width: 1200px) {
+    .pk {
+      padding-left: 27px;
+    }
+  }
+  

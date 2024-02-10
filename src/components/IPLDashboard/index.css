@@ -1,0 +1,17 @@
+.ipl-container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 30px;
+    align-items: flex-start;
+    padding-left: 20px;
+    background-color: rgb(166, 172, 170);
+  
+    padding-right: 10px;
+  }
+  .span {
+    font-size: 15px;
+  }
+  

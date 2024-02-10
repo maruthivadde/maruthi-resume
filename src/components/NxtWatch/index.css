@@ -1,0 +1,19 @@
+.container {
+    min-height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 30px;
+    align-items: flex-start;
+    padding-left: 20px;
+    background-color: rgb(166, 172, 170);
+    padding-bottom: 20px;
+    padding-right: 10px;
+  }
+  @media screen and (min-width: 1200px) {
+    .container {
+      height: 100vh;
+    }
+  }
+  
